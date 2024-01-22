@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailReaderTest", "EmailReaderTest\EmailReaderTest.csproj", "{53D631E9-BD20-499B-8AD6-81D7C38035AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetTiktokVerification", "GetTiktokVerification\GetTiktokVerification.csproj", "{3A5759A6-A04A-429D-BE50-FD389B8A5D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailReaderTestCore", "EmailReaderTestCore\EmailReaderTestCore.csproj", "{D8CC3EFA-F3C7-4771-B134-D423F7887581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetTiktokVerificationCore", "GetTiktokVerificationCore\GetTiktokVerificationCore.csproj", "{8E516B1B-2BB6-4D9D-9CBF-1EBA32811CF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53D631E9-BD20-499B-8AD6-81D7C38035AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D631E9-BD20-499B-8AD6-81D7C38035AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D631E9-BD20-499B-8AD6-81D7C38035AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D631E9-BD20-499B-8AD6-81D7C38035AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5759A6-A04A-429D-BE50-FD389B8A5D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5759A6-A04A-429D-BE50-FD389B8A5D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5759A6-A04A-429D-BE50-FD389B8A5D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5759A6-A04A-429D-BE50-FD389B8A5D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8CC3EFA-F3C7-4771-B134-D423F7887581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8CC3EFA-F3C7-4771-B134-D423F7887581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8CC3EFA-F3C7-4771-B134-D423F7887581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8CC3EFA-F3C7-4771-B134-D423F7887581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E516B1B-2BB6-4D9D-9CBF-1EBA32811CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E516B1B-2BB6-4D9D-9CBF-1EBA32811CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E516B1B-2BB6-4D9D-9CBF-1EBA32811CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E516B1B-2BB6-4D9D-9CBF-1EBA32811CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53DE802C-37E6-4FEA-8FB6-2A00A929D039}
+	EndGlobalSection
+EndGlobal
