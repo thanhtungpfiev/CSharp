@@ -27,3 +27,5 @@ HowKTeam/General/WindowGUI/WindowGUI/bin/
 HowKTeam/General/WindowGUI/WindowGUI/obj/
 
 .vs/
+/HowKTeam/General/EntityFrameWorkUI/EntityFrameWorkUI/bin/Debug
+/HowKTeam/General/EntityFrameWorkUI/EntityFrameWorkUI/obj/Debug
