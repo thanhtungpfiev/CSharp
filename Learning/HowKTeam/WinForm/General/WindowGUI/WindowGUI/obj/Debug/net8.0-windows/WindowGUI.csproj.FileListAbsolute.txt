@@ -1,0 +1,17 @@
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\bin\Debug\net8.0-windows\WindowGUI.exe
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\bin\Debug\net8.0-windows\WindowGUI.deps.json
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\bin\Debug\net8.0-windows\WindowGUI.runtimeconfig.json
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\bin\Debug\net8.0-windows\WindowGUI.dll
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\bin\Debug\net8.0-windows\WindowGUI.pdb
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\obj\Debug\net8.0-windows\WindowGUI.Form1.resources
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\obj\Debug\net8.0-windows\WindowGUI.csproj.GenerateResource.cache
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\obj\Debug\net8.0-windows\WindowGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\obj\Debug\net8.0-windows\WindowGUI.AssemblyInfoInputs.cache
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\obj\Debug\net8.0-windows\WindowGUI.AssemblyInfo.cs
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\obj\Debug\net8.0-windows\WindowGUI.csproj.CoreCompileInputs.cache
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\obj\Debug\net8.0-windows\WindowGUI.sourcelink.json
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\obj\Debug\net8.0-windows\WindowGUI.dll
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\obj\Debug\net8.0-windows\refint\WindowGUI.dll
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\obj\Debug\net8.0-windows\WindowGUI.pdb
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\obj\Debug\net8.0-windows\WindowGUI.genruntimeconfig.cache
+C:\Wind\PrivateDocuments\CodePractices\CSharp\HowKTeam\General\WindowGUI\WindowGUI\obj\Debug\net8.0-windows\ref\WindowGUI.dll
