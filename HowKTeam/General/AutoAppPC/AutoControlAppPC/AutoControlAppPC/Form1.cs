@@ -21,12 +21,12 @@ namespace AutoControlAppPC
             InitializeComponent();
         }
 
-        private void open_notepad_Click(object sender, EventArgs e)
+        private void button_open_notepad_Click(object sender, EventArgs e)
         {
             Process.Start("notepad");
         }
 
-        private void open_app_Click(object sender, EventArgs e)
+        private void button_open_app_Click(object sender, EventArgs e)
         {
             //Process.Start(AppDomain.CurrentDomain.BaseDirectory + "How Kteam - Free Education.html");
 
@@ -34,14 +34,14 @@ namespace AutoControlAppPC
             Process.Start("https://howkteam.vn/course/dieu-khien-ung-dung-pc-voi-c/chay-lenh-cmd-trong-dieu-khien-ung-dung-pc-2801");
         }
 
-        private void open_cmd_Click(object sender, EventArgs e)
+        private void button_open_cmd_Click(object sender, EventArgs e)
         {
             string strCmdText;
             strCmdText = "/C ping -t howkteam.com";
             Process.Start("CMD.exe", strCmdText);
         }
 
-        private void open_cmd_bg_Click(object sender, EventArgs e)
+        private void button_open_cmd_bg_Click(object sender, EventArgs e)
         {
             string strCmdText;
             strCmdText = @"/C ""How Kteam - Free Education.html""";
@@ -58,7 +58,7 @@ namespace AutoControlAppPC
             //p.Kill();
         }
 
-        private void open_cmd_bg_with_result_Click(object sender, EventArgs e)
+        private void button_open_cmd_bg_with_result_Click(object sender, EventArgs e)
         {
             string cmdCommand = "ping howkteam.com";
 

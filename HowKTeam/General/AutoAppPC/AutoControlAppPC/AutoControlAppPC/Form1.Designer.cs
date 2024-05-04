@@ -48,13 +48,13 @@
             this.button_open_app = new System.Windows.Forms.Button();
             this.button_open_notepad = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button_export_image_position = new System.Windows.Forms.Button();
+            this.button_check_image = new System.Windows.Forms.Button();
             this.button_send_key_to_app_2 = new System.Windows.Forms.Button();
             this.button_click_one_point_app_2 = new System.Windows.Forms.Button();
             this.button_click_control_app_2 = new System.Windows.Forms.Button();
             this.button_send_text_to_app = new System.Windows.Forms.Button();
             this.button_edit_window_title = new System.Windows.Forms.Button();
-            this.button_check_image = new System.Windows.Forms.Button();
-            this.button_export_image_position = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_y)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_x)).BeginInit();
@@ -96,6 +96,7 @@
             this.button_send_multikey_to_app.TabIndex = 35;
             this.button_send_multikey_to_app.Text = "send_multikey_to_app";
             this.button_send_multikey_to_app.UseVisualStyleBackColor = true;
+            this.button_send_multikey_to_app.Click += new System.EventHandler(this.button_send_multikey_to_app_Click);
             // 
             // button_send_key_to_app
             // 
@@ -105,6 +106,7 @@
             this.button_send_key_to_app.TabIndex = 34;
             this.button_send_key_to_app.Text = "send_key_to_app";
             this.button_send_key_to_app.UseVisualStyleBackColor = true;
+            this.button_send_key_to_app.Click += new System.EventHandler(this.button_send_key_to_app_Click);
             // 
             // textBox_control_text
             // 
@@ -122,6 +124,7 @@
             this.button_click_control_app.TabIndex = 32;
             this.button_click_control_app.Text = "click_control_app";
             this.button_click_control_app.UseVisualStyleBackColor = true;
+            this.button_click_control_app.Click += new System.EventHandler(this.button_click_control_app_Click);
             // 
             // textBox_window_title
             // 
@@ -139,6 +142,7 @@
             this.button_click_one_point_app.TabIndex = 30;
             this.button_click_one_point_app.Text = "click_one_point_app";
             this.button_click_one_point_app.UseVisualStyleBackColor = true;
+            this.button_click_one_point_app.Click += new System.EventHandler(this.button_click_one_point_app_Click);
             // 
             // button_click_one_point_desktop
             // 
@@ -148,6 +152,7 @@
             this.button_click_one_point_desktop.TabIndex = 29;
             this.button_click_one_point_desktop.Text = "click_one_point_desktop";
             this.button_click_one_point_desktop.UseVisualStyleBackColor = true;
+            this.button_click_one_point_desktop.Click += new System.EventHandler(this.button_click_one_point_Click);
             // 
             // checkBox_double_click
             // 
@@ -219,6 +224,7 @@
             this.button_open_cmd_bg_with_result.TabIndex = 22;
             this.button_open_cmd_bg_with_result.Text = "open_cmd_bg_with_result";
             this.button_open_cmd_bg_with_result.UseVisualStyleBackColor = true;
+            this.button_open_cmd_bg_with_result.Click += new System.EventHandler(this.button_open_cmd_bg_with_result_Click);
             // 
             // button_open_cmd_bg
             // 
@@ -228,6 +234,7 @@
             this.button_open_cmd_bg.TabIndex = 21;
             this.button_open_cmd_bg.Text = "open_cmd_bg";
             this.button_open_cmd_bg.UseVisualStyleBackColor = true;
+            this.button_open_cmd_bg.Click += new System.EventHandler(this.button_open_cmd_bg_Click);
             // 
             // button_open_cmd
             // 
@@ -237,6 +244,7 @@
             this.button_open_cmd.TabIndex = 20;
             this.button_open_cmd.Text = "open_cmd";
             this.button_open_cmd.UseVisualStyleBackColor = true;
+            this.button_open_cmd.Click += new System.EventHandler(this.button_open_cmd_Click);
             // 
             // button_open_app
             // 
@@ -246,6 +254,7 @@
             this.button_open_app.TabIndex = 19;
             this.button_open_app.Text = "open_app";
             this.button_open_app.UseVisualStyleBackColor = true;
+            this.button_open_app.Click += new System.EventHandler(this.button_open_app_Click);
             // 
             // button_open_notepad
             // 
@@ -255,6 +264,7 @@
             this.button_open_notepad.TabIndex = 18;
             this.button_open_notepad.Text = "open_notepad";
             this.button_open_notepad.UseVisualStyleBackColor = true;
+            this.button_open_notepad.Click += new System.EventHandler(this.button_open_notepad_Click);
             // 
             // groupBox2
             // 
@@ -271,6 +281,26 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "not_take_mouse";
+            // 
+            // button_export_image_position
+            // 
+            this.button_export_image_position.Location = new System.Drawing.Point(148, 107);
+            this.button_export_image_position.Name = "button_export_image_position";
+            this.button_export_image_position.Size = new System.Drawing.Size(136, 23);
+            this.button_export_image_position.TabIndex = 40;
+            this.button_export_image_position.Text = "export_image_position";
+            this.button_export_image_position.UseVisualStyleBackColor = true;
+            this.button_export_image_position.Click += new System.EventHandler(this.button_export_image_position_Click);
+            // 
+            // button_check_image
+            // 
+            this.button_check_image.Location = new System.Drawing.Point(6, 107);
+            this.button_check_image.Name = "button_check_image";
+            this.button_check_image.Size = new System.Drawing.Size(136, 23);
+            this.button_check_image.TabIndex = 39;
+            this.button_check_image.Text = "check_image";
+            this.button_check_image.UseVisualStyleBackColor = true;
+            this.button_check_image.Click += new System.EventHandler(this.button_check_image_Click);
             // 
             // button_send_key_to_app_2
             // 
@@ -321,26 +351,6 @@
             this.button_edit_window_title.Text = "edit_window_title";
             this.button_edit_window_title.UseVisualStyleBackColor = true;
             this.button_edit_window_title.Click += new System.EventHandler(this.button_edit_window_title_Click);
-            // 
-            // button_check_image
-            // 
-            this.button_check_image.Location = new System.Drawing.Point(6, 107);
-            this.button_check_image.Name = "button_check_image";
-            this.button_check_image.Size = new System.Drawing.Size(136, 23);
-            this.button_check_image.TabIndex = 39;
-            this.button_check_image.Text = "check_image";
-            this.button_check_image.UseVisualStyleBackColor = true;
-            this.button_check_image.Click += new System.EventHandler(this.button_check_image_Click);
-            // 
-            // button_export_image_position
-            // 
-            this.button_export_image_position.Location = new System.Drawing.Point(148, 107);
-            this.button_export_image_position.Name = "button_export_image_position";
-            this.button_export_image_position.Size = new System.Drawing.Size(136, 23);
-            this.button_export_image_position.TabIndex = 40;
-            this.button_export_image_position.Text = "export_image_position";
-            this.button_export_image_position.UseVisualStyleBackColor = true;
-            this.button_export_image_position.Click += new System.EventHandler(this.button_export_image_position_Click);
             // 
             // Form1
             // 
