@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoControlAppPC", "AutoControlAppPC\AutoControlAppPC.csproj", "{E033CC7B-BB99-4706-B688-5C3F6913FF5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KAutoHelper", "..\..\..\..\..\..\..\Outsource\telebot_resources\Libs\KAutoHelper\src\KAutoHelper.csproj", "{AAD5D408-97B9-49B1-9CC6-F03F384940F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E033CC7B-BB99-4706-B688-5C3F6913FF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E033CC7B-BB99-4706-B688-5C3F6913FF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E033CC7B-BB99-4706-B688-5C3F6913FF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E033CC7B-BB99-4706-B688-5C3F6913FF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD5D408-97B9-49B1-9CC6-F03F384940F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD5D408-97B9-49B1-9CC6-F03F384940F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD5D408-97B9-49B1-9CC6-F03F384940F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD5D408-97B9-49B1-9CC6-F03F384940F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CE92F0D-5C25-4EA8-A87B-1B87F6E44C7B}
+	EndGlobalSection
+EndGlobal
